@@ -1,0 +1,12 @@
+[package]
+name = "rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+actix-web = "4"
+image = "0.24"
+
+[[bin]]
+name = "rust"
+path = "main.rs"
